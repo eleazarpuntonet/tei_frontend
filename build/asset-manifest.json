@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a8acbc30.css",
+    "main.js": "/static/js/main.9154574f.js",
+    "static/js/905.331eeb93.chunk.js": "/static/js/905.331eeb93.chunk.js",
+    "static/js/313.7a93147e.chunk.js": "/static/js/313.7a93147e.chunk.js",
+    "static/js/249.5b306cc1.chunk.js": "/static/js/249.5b306cc1.chunk.js",
+    "static/js/27.f3397b22.chunk.js": "/static/js/27.f3397b22.chunk.js",
+    "static/media/Imagen 1.jpg": "/static/media/Imagen 1.794f361f3dfbdae86494.jpg",
+    "static/media/Imagen 3.jpg": "/static/media/Imagen 3.6050b19f766538fd9073.jpg",
+    "static/media/Imagen 5.jpg": "/static/media/Imagen 5.2028ea3ab9e8373d138a.jpg",
+    "static/media/Imagen 2.jpg": "/static/media/Imagen 2.342981e2b1a8fd66ee55.jpg",
+    "static/media/Imagen 4.jpg": "/static/media/Imagen 4.e73b14aa96339929b0d5.jpg",
+    "static/media/LogoTransparente.png": "/static/media/LogoTransparente.c56f7b6330be6bb3957c.png",
+    "static/media/LogoCuadrado.png": "/static/media/LogoCuadrado.7138dd220417c1c350b3.png",
+    "static/media/Logo a Color.svg": "/static/media/Logo a Color.988026bd4dace0459dbabc3c64afdbad.svg",
+    "static/media/Logo Blanco.svg": "/static/media/Logo Blanco.711812dd07a10de474f92e07e0764d9b.svg",
+    "static/media/Superficie.svg": "/static/media/Superficie.15dae4db6b3a2eabdc857b38daf95b86.svg",
+    "static/media/Ptos de estacionamiento.svg": "/static/media/Ptos de estacionamiento.9047bc74eea5c8cd2e0854e12adf1718.svg",
+    "static/media/Cierres.svg": "/static/media/Cierres.db1de49ba474ac51df4eb951926b2d96.svg",
+    "static/media/LogoCuadrado.svg": "/static/media/LogoCuadrado.3594ef6aaf3f1915086214a627e0fa6b.svg",
+    "static/media/Alquileres.svg": "/static/media/Alquileres.57c857191afe514ebe0db7e6b0275dac.svg",
+    "static/media/Baños.svg": "/static/media/Baños.184dbce42c14510ed13c95f2d3d37217.svg",
+    "index.html": "/index.html",
+    "static/media/Chat.svg": "/static/media/Chat.37912e2faf43f37d543c2b4c9cbf294b.svg",
+    "static/media/Habitaciones.svg": "/static/media/Habitaciones.7a81966c385a83e358c7e7bace863e90.svg",
+    "static/media/Twitter.svg": "/static/media/Twitter.abc355f9532135ea27938eb4fa721d88.svg",
+    "static/media/Instagram.svg": "/static/media/Instagram.a894b7ec3221b04a6c3d58466320b3c4.svg",
+    "static/media/Metros Cuadrados.svg": "/static/media/Metros Cuadrados.1c5e894240f56482d8428ab525f33d6f.svg",
+    "static/media/whatsapp.svg": "/static/media/whatsapp.cd26843dc673832d8cb3fb3de3d04ed3.svg",
+    "static/media/Facebook.svg": "/static/media/Facebook.282222d54e22e91af2860ace0e4a3a23.svg",
+    "static/media/Propiedades.svg": "/static/media/Propiedades.569f7ee194a2b65998ad21fa7324a1c6.svg",
+    "static/media/Proyectos Primarios.svg": "/static/media/Proyectos Primarios.f3a32dac8860acb360f2d0a3fe29db0b.svg",
+    "static/media/tiktok.svg": "/static/media/tiktok.6b88bc6e889ca312a12b64672319b9c6.svg",
+    "static/media/lock-solid.svg": "/static/media/lock-solid.476305a1af2c18a6eed86e1a20352fda.svg"
+  },
+  "entrypoints": [
+    "static/css/main.a8acbc30.css",
+    "static/js/main.9154574f.js"
+  ]
+}
