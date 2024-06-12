@@ -1,0 +1,170 @@
+.searchContainer{
+    max-width: 1050px;
+    width: 80%;
+    z-index: 2;
+    position: relative;
+    margin:auto;
+}
+.buttons_container{
+    height: 50px;
+    padding-bottom: 0px;
+}
+.buttons_container ul{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    padding-left: 0px;
+}
+.buttons_container ul li{
+    list-style: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #0071ce;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px;
+}
+li.active{
+    background-color: #ee7623 !important;
+}
+.buttons_container ul li:first-child{
+    border-top-left-radius: 17px;
+}
+.buttons_container ul li:last-child{
+    border-top-right-radius: 17px;
+}
+.input_container{
+    display: flex !important;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.623);
+    padding: 10px;
+    border-bottom-left-radius: 17px;
+    border-bottom-right-radius: 17px;
+    border-top-right-radius: 17px;
+}
+.input_container .filter{
+    width: 30%;
+    padding-right: 10px;
+}
+.input_container .text{
+    width: 70%;
+    padding-left: 10px;
+}
+.input_container .form-control{
+    background-color: rgba(255, 255, 255, 0.623);
+    font-family: 'Raleway', sans-serif;
+    border: 1px solid #4a64f7;
+    border-radius: 17px;
+} 
+.select_filter{
+    font-weight: bold;
+}
+
+.navtab_ul{
+    background-color: #fff;
+}
+
+
+/* Codigo de buscador de inmuebles */
+#nav-tab .nav-link.active{
+    background-color: #ee7623 !important;
+}
+
+#nav-tab .nav-link{
+    background-color: #0071ce !important;
+}
+
+
+#nav-tab .nav-link{
+    color: #fff !important;
+    font-weight: bold;
+    border: none;
+}
+
+#nav-tab li{
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    padding: 15px;
+}
+
+#nav-tab li{
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    padding: 15px;
+}
+
+
+#nav-tab .nav-link:first-child{
+    border-top-left-radius: 17px !important;
+}
+#nav-tab .nav-link:last-child{
+    border-top-right-radius: 17px !important;
+}
+
+@media screen and (max-width: 767px) {
+    .buttons_container ul {
+      flex-direction: column;
+      justify-content: center;
+      padding-left: 0;
+    }
+    
+    .buttons_container ul li {
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+    
+    .input_container {
+      flex-direction: column;
+      align-items: stretch;
+      justify-content: center;
+      border-radius: 17px;
+    }
+    
+    .input_container .filter {
+      width: 100%;
+      padding-right: 0;
+      margin-bottom: 10px;
+    }
+    
+    .input_container .text {
+      width: 100%;
+      padding-left: 0;
+    }
+  }
+  
+  @media screen and (max-width: 991px) {
+    .buttons_container ul li {
+      font-size: 14px;
+    }
+  }
+  
+  @media screen and (max-width: 575px) {
+    .searchContainer {
+      width: 100%;
+      padding: 0 10px;
+    }
+    
+    .buttons_container ul li {
+      padding: 8px;
+      font-size: 12px;
+    }
+    
+    .input_container {
+      padding: 5px;
+      border-radius: 10px;
+    }
+    
+    .input_container .form-control {
+      border-radius: 10px;
+    }
+  }
+  

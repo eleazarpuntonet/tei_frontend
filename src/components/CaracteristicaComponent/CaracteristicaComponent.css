@@ -1,0 +1,35 @@
+.caracteristicas_container{
+    align-items: left;
+    margin-right: 5px;
+    min-width: 75px;
+}
+.char_item{
+    color :#fff;
+    position: relative;
+    margin-right: 5px;
+}
+
+.char_item .pre{
+    font-weight: bold;
+    margin-right: 3px;
+}
+.char_item .pre, .char_item .post{
+    font-size: 12px;
+}
+
+.char_img .svg_icon svg{
+    height: 30px; 
+}
+
+
+.blog-item .char_img{
+    position: relative;
+}
+
+.blog-item .text_char{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    left: 30px;
+    top: -5px;
+}

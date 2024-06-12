@@ -1,0 +1,88 @@
+.header_navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    /* background: #E3E6F3; */
+    box-shadow: 0 5px 15px rgba(0,0,0,0.06);
+    height: 150px;
+    position: relative;
+    z-index: 10;
+    transition: all 0.3s ease;
+}
+.logo_container, .login_section{
+    width: 200px;
+    min-width: 160px;
+    text-align: center;
+}
+.logo_container .logo{
+    height: 200px;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#navbar li{
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+}
+#navbar li a{
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    font-family: 'Public Sans', sans-serif;
+    color:#ffffff;
+    font-size:25px;
+}
+#navbar li a:hover{
+    font-weight: 600;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+#navbar li a.active{
+    color: #ffffff;
+}
+
+#navbar li a.active::after,
+#navbar li a:hover::after{
+    content: "";
+    width: 30%;
+    height: 2px;
+    background-color: #ffffff;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+}
+.btn-remix{
+    color: #fff;
+    background-color:#ee7623;
+    font-weight:600;
+    border-radius: 17px;
+    transition: all 0.3s ease;
+    white-space:nowrap;
+}
+.btn:hover {
+    color: #fff !important;
+    background-color:#3aa422 !important;
+    border-color: unset !important;
+}
+
+@media (max-width:1199px){
+    .header_navbar{
+        padding: 20px 50px;
+    }
+    .btn-remix{
+        font-size:16px !important;
+        padding-right:12px;
+        padding-left:12px;
+        padding-top:4px;
+        padding-bottom:4px;
+    }
+    #navbar li a{
+        font-size:20px;
+    }
+}
+

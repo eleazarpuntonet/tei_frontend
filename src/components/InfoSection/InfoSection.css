@@ -1,0 +1,20 @@
+.info_section{
+    width: 100vw;
+    height: 200px;
+    display: flex;
+    background-color: #303335;
+    flex-direction: column;
+    justify-content: center;
+}
+.info_section ul, .info_section ul li{
+    list-style-type: none;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.icon_info{
+    height: 60px;
+}
+
+

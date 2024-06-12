@@ -1,0 +1,290 @@
+#seccioIndividual .imagen img{
+    width: 100%;
+    height: auto;
+}
+#seccioIndividual{
+    margin-top: 130px;
+}
+
+#seccioIndividual .titulo h2{
+    font-size: 36px;
+}
+#seccioIndividual .direccion{
+    font-size: 18px;
+    margin-bottom: 0.5rem;
+}
+
+#seccioIndividual .desc_body{
+    font-size: 16px;
+    line-height: 2rem;
+}
+
+.info_title{
+    background-color: rgb(214, 213, 213);
+    padding: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.title_price{
+    display: flex;
+    justify-content: space-between;
+}
+.title_price .socials{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    margin: auto 10px;
+
+}
+.title_price .priceBox{
+    display: flex;
+    flex-direction: column;
+}
+.priceBox{
+    width: 100%;
+    padding: 3px 10px;
+    
+}
+.icon_share{
+    margin-right: 5px;
+    border-radius: 50%;
+    border: 2px solid black;
+    padding: 3px;
+    height: 25px;
+    width: 25px;
+    position: relative;
+}
+.icon_share svg{
+    display: block;
+    margin: auto;
+}
+.icon_share .svg__container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.title_price{
+    border: 2px solid rgba(125, 120, 196, 0.589);
+    border-radius: 10px;
+}
+.title_price .priceBox .price{
+    font-size: 32px;
+    color: #ee7623;
+    font-weight: bold;
+}
+.title_price .priceBox .tipe{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: -7px;
+}
+.tabsInfo{
+    margin-top: 15px;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #ee7623;
+    background-color: #303335;
+    border-color: #303335;
+    border-radius: 0px;
+}
+.tabsInfo .tab-pane{
+    background-color: #303335;
+    color: #ee7623;
+}
+
+.nav-fill .nav-item .nav-link, .nav-justified .nav-item .nav-link {
+    width: 100%;
+}
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+    isolation: isolate;
+}
+button:focus:not(:focus-visible) {
+    outline: 0;
+}
+.nav-tabs .nav-link:not(.active) {
+    background: rgb(219, 209, 209) !important;
+    border: 1px solid transparent;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    color: #303335;
+    font-weight: bold;
+}
+.panel_char{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.panel_char .svg__container svg{
+    height: 60px;
+}
+
+.panel_char .char_item .pre, 
+.panel_char .char_item .post{
+    font-size: 18px !important;
+}
+
+.panel_char{
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.detallesInmueble{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 20px;
+}
+.item_detalle{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    margin-bottom: 5px;
+}
+.item_detalle .title{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+}
+.item_detalle .title{
+    font-size: 16px;
+    font-weight: bold;
+}
+.separador{
+    width: 85%;
+    height: 1px;
+    background-color: #fff;
+    margin: auto;
+}
+.caracteristicasInmueble{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 20px;
+}
+.publi_container .title,
+.publi_container .subtitle{
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.publi_container .subtitle{
+    color: #ee7623;
+    margin-top: -5px;
+}
+.publi_container .title{
+    color: #303335;
+    margin-top: 20px;
+}
+.publi_container .action{
+    width: 100%;
+    text-align: center;
+    margin-top: 15px;
+}
+
+
+.tab .socials{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.tab .socials .icons img{
+    height: 36px ;
+}
+.tab .socials .info{
+    font-size: 14px;
+    /* font-weight: bold; */
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+    color: #fff;
+}
+.tab_container{
+    padding: 0 20px;
+}
+.btn_orange{
+    background-color: #ee7623;
+    color: #fff;
+}
+.btn_whatsapp{
+    background-color: #25D366;
+    color: #fff;
+}
+.btn_block{
+    width: 100%;
+}
+.btn_round{
+    border-radius: 20px;
+}
+.visita .info{
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+}
+.icon_calendar{
+    padding: 10px;
+}
+.icon_calendar svg{
+    height: 50px;
+    width: auto;
+}
+.date_Selected{
+    padding: 7px;
+    width: 90px;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 2px solid #fff;
+    border-radius: 15px;
+    align-items: center;
+    color: #fff;
+}
+.date_Selected .dia_semana,
+.date_Selected .mes{
+    font-size: 1rem;
+}
+.date_Selected .dia_mes{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.date_Selected .dia_semana{
+    margin-bottom: -1rem;
+}
+.date_Selected .mes{
+    margin-top: -1rem;
+}
+
+.seccion_dia{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.btn_mini{
+    padding: 3px;
+    font-size: 12px;
+}
+.btn_mini.active{
+    color: #303335;
+    background-color: #ee7623;
+}
+.btn_mini:not(.active){
+    color: #303335;
+    background-color: #fff;
+}

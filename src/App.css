@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Public+Sans:wght@400;700&family=Raleway:wght@400;700&family=Roboto+Mono:wght@700&family=Rubik:wght@400;700&display=swap');
+.App {
+  text-align: center;
+}
+.svg__container svg{
+  height: 45px;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.text_title{
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  text-shadow:rgba(0, 0, 0, 0.3) 0px 1px 1px;
+}
+.f-row{
+  display: flex;
+  flex-direction: row;
+  /* width: 100%; */
+}
+.f-col{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+p {
+  margin-top: 0;
+  margin-bottom: unset;
+}
+.btn.inmo_button{
+  border-radius: 1px !important;
+  font-weight: bold;
+  color: #fff;
+  padding: 5px 2rem;
+  font-size: 14px;
+  margin: 5px 5px;
+}
+.btn.inmo_button.primario{
+  background-color: #0071ce;
+}
+.btn.inmo_button.secundario{
+  background-color: #ee7623;
+}
+.btn.inmo_button.terciario{
+  background-color: #303335;
+}
+
+.__fitcover{
+  object-fit: cover;
+}
+
+.__60square{
+  width: 60px;
+  height: 60px;
+}
+
+
+.logo_container {
+    width: 170px !important;
+}
+#logo_COLOR{
+  height: 130px;
+}
+
+@media screen and (max-width: 575px) {
+  .logo_container .logo{
+    height: 70px !important;
+  }
+  #nav-tab{
+    font-size: 12px !important;
+  }
+}
+
+.icon-37{
+  display: flex;
+  flex-direction: column;
+  height: 50px;
+  justify-content: center;
+  margin: 0 5px
+}
+
+.custom-text-link{
+  color: #fff;
+  font-style: bold;
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+}
+.custom-text-link span{
+  margin-left: -10px;
+}
+
+.precio-span{
+  color: #ee7623;
+  font-size: 1.2rem !important;
+}

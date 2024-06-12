@@ -1,0 +1,16 @@
+version: '3'
+
+networks:
+  local-network:
+    external: true
+
+services:
+  tuenlaceinmobiliario_frontend:
+    build:
+      context: ./
+      dockerfile: ./compose/production/Dockerfile
+    volumes:
+      - ./:/usr/src
+      - ./build:/usr/src
+    networks:
+      - local-network

@@ -1,0 +1,68 @@
+{
+  "name": "tuenlaceinmobiliario_proy",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.8.2",
+    "@emotion/styled": "^11.8.1",
+    "@fortawesome/fontawesome-svg-core": "^6.1.1",
+    "@fortawesome/free-brands-svg-icons": "^6.1.1",
+    "@fortawesome/free-solid-svg-icons": "^6.1.1",
+    "@fortawesome/react-fontawesome": "^0.1.19",
+    "@mui/icons-material": "^5.5.1",
+    "@mui/material": "^5.5.2",
+    "@reduxjs/toolkit": "^1.8.1",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^0.26.1",
+    "bootstrap": "^5.2.3",
+    "crypto-js": "^4.1.1",
+    "framer-motion": "^6.2.8",
+    "i18next": "^21.6.16",
+    "jspdf": "^2.5.1",
+    "jspdf-autotable": "^3.5.29",
+    "node-sass": "^7.0.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.3.1",
+    "react-redux": "^8.0.5",
+    "react-router-dom": "^6.8.0",
+    "react-scripts": "5.0.1",
+    "react-svg": "^16.1.4",
+    "react-tooltip": "^4.2.21",
+    "reactstrap": "^9.1.10",
+    "redux": "^4.2.0",
+    "redux-persist": "^6.0.0",
+    "swiper": "^9.2.0",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "CHOKIDAR_USEPOLLING=true react-scripts start",
+    "build": "REACT_APP_API_URL=https://api.inmob.app/api/ REACT_APP_API_TOKEN=56b57094dd29774db7e5350f01f4ea85c8bef700 react-scripts build NODE_ENV=production webpack",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "start:dev": "CHOKIDAR_USEPOLLING=true react-scripts start"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "dotenv-webpack": "^8.0.1"
+  }
+}

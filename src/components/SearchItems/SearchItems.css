@@ -1,0 +1,106 @@
+.image_prev_result {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image_prev_result img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  
+.dataItem{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 25px;
+}
+.dataItem .header{
+    justify-content: space-between;
+    width: 100%;
+}
+.dataItem .header span:nth-child(1){
+    font-size: 2rem;
+    font-weight: bold;
+}
+.dataItem .header span:nth-child(2){
+    height: 100%;
+    text-align: center;
+    line-height: 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.dataItem div{
+    height: 45px;
+    overflow: hidden;
+    /* background-color: antiquewhite; */
+    margin-bottom: 2px;
+}
+
+.dataItem .subtitle{
+    font-size: 22px;
+    height: 2rem;
+}
+
+.dataItem .ubicacion{
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.dataItem .ubicacion span:nth-child(1){
+    color: orange;
+}
+.dataItem .ubicacion span{
+    font-weight: bold;
+}
+.dataItem .caracteristicas{
+    height: 2rem;
+    color: black;
+}
+.dataItem .caracteristicas .pre,
+.dataItem .caracteristicas .post{
+    color: black;
+}
+.dataItem .descripcion{
+    padding: 5px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.dataItem .card_footer{
+    background-color: rgb(209, 209, 209);
+    justify-content: flex-end;
+    /* border-radius: 10px; */
+    /* width: calc(100% - 50px); */
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+.box_item{
+    border: 2px solid gray;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 25px;
+}
+.dataItem .card_footer #logo_COLOR{
+    height: 45px;
+}
+.dataItem .card_footer .contact_button{
+    height: 34px;
+    border-radius: 8px !important;
+}
+.image_prev_result img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+.box_item{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
